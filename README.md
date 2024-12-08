@@ -2,6 +2,8 @@ git clone https://github.com/GHJ0319/serial.git
 
 git clone https://github.com/GHJ0319/gps.git
 
+git clone https://github.com/GHJ0319/mower.git
+
 git clone https://github.com/GHJ0319/wit_ros_imu.git
 
 git clone https://github.com/GHJ0319/ros_arduino_bridge.git
