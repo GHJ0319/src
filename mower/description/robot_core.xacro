@@ -101,9 +101,6 @@
         </xacro:inertial_box>
     </link>
 
-    <gazebo reference="chassis">
-        <material>Gazebo/Orange</material>
-    </gazebo>
 
     <!-- LEFT WHEEL LINK -->
 
@@ -131,11 +128,7 @@
         </xacro:inertial_cylinder>
     </link>
 
-    <gazebo reference="left_wheel">
-        <material>Gazebo/Blue</material>
-        <mu1 value="1.0"/>
-        <mu2 value="1.0"/>
-    </gazebo>
+
 
 
 
@@ -166,11 +159,7 @@
         </xacro:inertial_cylinder>
     </link>
 
-    <gazebo reference="right_wheel">
-        <material>Gazebo/Blue</material>
-        <mu1 value="1.0"/>
-        <mu2 value="1.0"/>
-    </gazebo>
+
 
 
     <!-- CASTER WHEEL LINK -->
@@ -199,6 +188,7 @@
         </xacro:inertial_sphere>
     </link>
 
+
     <!-- IMU LINK -->
 
     <joint name="imu_joint" type="fixed">
@@ -219,10 +209,6 @@
 
      <link name="gps_link"/>
 
-    <gazebo reference="caster_wheel">
-        <material>Gazebo/White</material>
-        <mu1 value="0.01"/>
-        <mu2 value="0.01"/>
-    </gazebo>
+
 
 </robot>
